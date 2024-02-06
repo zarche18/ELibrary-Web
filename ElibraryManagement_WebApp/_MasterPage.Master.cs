@@ -14,9 +14,34 @@ namespace ElibraryManagement_WebApp
 
         }
 
-        protected void lkViewBooks_Click(object sender, EventArgs e)
+        protected void lkAdminLogin_Click(object sender, EventArgs e)
         {
+            Response.Redirect("AdminLogin.aspx");
+        }
 
+        protected void lkAuthorManager_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminAuthorManagement.aspx");
+        }
+
+        protected void lkPublisherManagement_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminPublisherManagement.aspx");
+        }
+
+        protected void lkBookInventory_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("BooksInventory.aspx");
+        }
+
+        protected void lkBookIssuing_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminBookingIssue.aspx");
+        }
+
+        protected void lkMemberManagement_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MemberManagement.aspx");
         }
     }
 }

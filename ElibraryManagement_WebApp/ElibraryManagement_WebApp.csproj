@@ -1731,6 +1731,41 @@
     <Compile Include="UserViewProfile.aspx.designer.cs">
       <DependentUpon>UserViewProfile.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminAuthorManagement.aspx.cs">
+      <DependentUpon>AdminAuthorManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAuthorManagement.aspx.designer.cs">
+      <DependentUpon>AdminAuthorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPublisherManagement.aspx.cs">
+      <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPublisherManagement.aspx.designer.cs">
+      <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookingIssue.aspx.cs">
+      <DependentUpon>AdminBookingIssue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminBookingIssue.aspx.designer.cs">
+      <DependentUpon>AdminBookingIssue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberManagement.aspx.cs">
+      <DependentUpon>MemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberManagement.aspx.designer.cs">
+      <DependentUpon>MemberManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BooksInventory.aspx.cs">
+      <DependentUpon>BooksInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BooksInventory.aspx.designer.cs">
+      <DependentUpon>BooksInventory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="_MasterPage.Master.cs">
       <DependentUpon>_MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1804,6 +1839,11 @@
     <Content Include="TermsAndCondition.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="UserViewProfile.aspx" />
+    <Content Include="AdminAuthorManagement.aspx" />
+    <Content Include="AdminPublisherManagement.aspx" />
+    <Content Include="AdminBookingIssue.aspx" />
+    <Content Include="MemberManagement.aspx" />
+    <Content Include="BooksInventory.aspx" />
     <Content Include="_MasterPage.Master" />
   </ItemGroup>
   <ItemGroup />
