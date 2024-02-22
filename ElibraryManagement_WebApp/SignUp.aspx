@@ -65,14 +65,13 @@
                                 <label> State </label>
                                 <asp:DropDownList ID="ddlState" class="form-control" runat="server">
                                     <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
-                                    <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
+                                    <asp:ListItem Text="Chin" Value="Chin"></asp:ListItem>
+                                    <asp:ListItem Text="Kachin" Value="Kachin"></asp:ListItem>
+                                    <asp:ListItem Text="Kayah" Value="Kayah"></asp:ListItem>
+                                    <asp:ListItem Text="Kayin" Value="Kayin"></asp:ListItem>
+                                    <asp:ListItem Text="Mon" Value="Mon"></asp:ListItem>
+                                    <asp:ListItem Text="Rakhine" Value="Rakhine"></asp:ListItem>
+                                    <asp:ListItem Text="Shan" Value="Shan"></asp:ListItem> 
                                 </asp:DropDownList>
                             </div>
                             <div class="col-md-4">
@@ -104,9 +103,9 @@
 
                         <div class="row">
                             <div class="col-md-6">
-                                <label>UserID</label>
+                                <label>Member ID</label>
                                 <div class="form-group">
-                                    <asp:TextBox ID="txtUserID" class="form-control" runat="server" placeholder="User ID"></asp:TextBox>
+                                    <asp:TextBox ID="txtMemberID" class="form-control" runat="server" placeholder="User ID"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -119,7 +118,7 @@
 
                         <div class="row">
                             <div class="col">
-                                <asp:Button ID="btnSignup" CssClass="btn btn-success btn-block" runat="server" Text="Signup" />
+                                <asp:Button ID="btnSignup" CssClass="btn btn-success btn-block" runat="server" Text="Sign up" OnClick="btnSignup_Click" />
                             </div>
                         </div>
                          
@@ -131,4 +130,5 @@
         </div>
     </div>
 
+   
 </asp:Content>

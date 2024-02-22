@@ -70,8 +70,15 @@
                             <div class="col-md-4">
                                 <label>State</label>
                                 <div class="form-group">
-                                    <asp:DropDownList ID="ddlCity" runat="server" class="form-control">
-                                        <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
+                                    <asp:DropDownList ID="ddlState" runat="server" class="form-control">
+                                            <asp:ListItem Text="Select" Value="Select"></asp:ListItem>
+                                            <asp:ListItem Text="Chin" Value="Chin"></asp:ListItem>
+                                            <asp:ListItem Text="Kachin" Value="Kachin"></asp:ListItem>
+                                            <asp:ListItem Text="Kayah" Value="Kayah"></asp:ListItem>
+                                            <asp:ListItem Text="Kayin" Value="Kayin"></asp:ListItem>
+                                            <asp:ListItem Text="Mon" Value="Mon"></asp:ListItem>
+                                            <asp:ListItem Text="Rakhine" Value="Rakhine"></asp:ListItem>
+                                            <asp:ListItem Text="Shan" Value="Shan"></asp:ListItem> 
                                     </asp:DropDownList>
                                 </div>
                             </div>

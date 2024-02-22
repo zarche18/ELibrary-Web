@@ -53,7 +53,7 @@
 
                          <div class="row">
                              <div class="col">
-                                 <asp:Button ID="btnLogin" Text="Login" CssClass="btn btn-success btn-block" runat="server" />
+                                 <asp:Button ID="btnLogin" Text="Login" CssClass="btn btn-success btn-block" runat="server" OnClick="btnLogin_Click" />
                              </div>
                          </div>
 

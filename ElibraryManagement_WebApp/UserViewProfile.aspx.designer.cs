@@ -60,13 +60,13 @@ namespace ElibraryManagement_WebApp
         protected global::System.Web.UI.WebControls.TextBox txtEmailID;
 
         /// <summary>
-        /// ddlCity control.
+        /// ddlState control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCity;
+        protected global::System.Web.UI.WebControls.DropDownList ddlState;
 
         /// <summary>
         /// txtCity control.
